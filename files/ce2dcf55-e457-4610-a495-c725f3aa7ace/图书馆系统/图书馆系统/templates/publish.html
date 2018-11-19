@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block titlet %}
+    <h1>出版社信息</h1>
+{% endblock %}
+
+
+{% block content %}
+           <p><a href="/add_publish/" class="btn btn-primary">添加出版社</a> <a href="/author/" class="btn btn-success" style="position: relative; left: 10px">查看作者</a></p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                           <td>出版社</td>
+                           <td>所在城市</td>
+                           <td>邮箱</td>
+                           <td>出版书籍</td>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for publish in publish_list %}
+                            <tr>
+                                <td><a href="/{{ publish.id }}/publish/">{{ publish.name }}</a></td>
+                                <td>{{ publish.city}}</td>
+                                <td>{{ publish.email }}</td>
+                                <td>{% for book in publish.book_set.all %}
+                                    {{ book.title }}
+                                {% endfor %}
+                                </td>
+                                <td>
+                                    <a href="/{{ publish.id }}/edit_publish/" class="btn btn-success">编辑</a>
+                                </td>
+                                <td>
+                                    <a href="/{{ publish.id }}/delete_publish/" class="btn btn-danger">删除</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+        <p><a href="/index/" class="btn btn-primary pull-right">返回首页</a> </p>
+{% endblock %}
+

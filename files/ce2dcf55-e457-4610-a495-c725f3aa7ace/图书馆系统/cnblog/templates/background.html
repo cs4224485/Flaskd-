@@ -1,0 +1,26 @@
+{% extends "background_base.html" %}
+
+{% block content %}
+     <table class="table">
+                <thead>
+                    <tr>
+                        <th>标题</th>
+                        <th>评论数</th>
+                        <th>编辑操作</th>
+                        <th>删除操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    {% for article in article_list %}
+                    <tr>
+                        <th>{{ article.title }}</th>
+                        <th>{{ article.comment_count }}</th>
+                        <th><a href="/edit_article/{{ article.nid }}" class="btn-primary btn">编辑</a></th>
+                        <th><a href="/delete_article/{{ article.nid }}" class="btn-warning btn">删除</a></th>
+                    </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+{% endblock %}

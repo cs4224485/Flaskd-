@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <style>
+        .nav_head{
+            background-color: #169fe6;
+            width: 100%;
+        }
+        .nav_head .nav_content{
+            width: 1500px;
+            height: 58px;
+            margin: 0 auto;
+        }
+        .nav_head .title{
+            padding-left: 100px;
+            float: left;
+            font-size: 28px;
+            font-weight: bold;
+            color: orangered;
+            text-align: center;
+            line-height: 58px;
+        }
+        .nav_head .content_right{
+            float: right;
+            line-height: 58px;
+        }
+        .nav_head .content_right a{
+            width: 30px;
+            height: 30px;
+            padding: 10px;
+            color: #fff;
+            text-shadow: 3px 3px 3px #000;
+        }
+    </style>
+    {% block css %}
+
+    {% endblock %}
+</head>
+<body>
+    <div class="nav_head">
+        <div class="nav_content">
+            <div class="title">
+                <span>{{ user_obj.blog.title }}</span>
+            </div>
+            <div class="content_right">
+                <a href="/index/">博客园</a>
+                <a href="/{{ user_obj.username }}/">首页</a>
+                <a href="/add_article/">新随笔</a>
+                <a href="">订阅</a>
+                <a href="/background/">管理</a>
+            </div>
+       </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px">
+        <div class="col-md-3">
+                {% load my_tags %}
+                {% get_classification_style user_obj %}
+
+        </div>
+         <div class="row">
+            {% block center_content %}
+
+            {% endblock %}
+        </div>
+    </div>
+  </body>
+
+  <script src="/static/jquery-3.3.1.js"></script>
+  <script src="/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  {% block js %}
+
+  {% endblock %}
+</html>

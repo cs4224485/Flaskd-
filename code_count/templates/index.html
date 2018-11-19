@@ -1,0 +1,76 @@
+{% extends "layout.html"%}
+
+{% block content %}
+<div class='row-fluid'>
+    <div id="container" style="min-width:400px;height:400px"></div>
+    <div class='span12 box bordered-box blue-border' style='margin-bottom:0;'>
+        <div class='box-header blue-background'>
+            <div class='title'>Responsive table</div>
+        </div>
+        <div class='box-content box-no-padding'>
+            {% include "tables.html" %}
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block js %}
+<script src="/static/chart/highcharts.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            url:"",
+            type:'get',
+            data:{
+                'chart':true
+            },
+            success:function (data) {
+                var chart = Highcharts.chart('container', {
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: '代码统计表'
+                    },
+                    subtitle: {
+                        text: '数据截止 2017-03，来源: <a href="https://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+                    },
+                    xAxis: {
+                        type: 'category',
+                        labels: {
+                            rotation: -45  // 设置轴标签旋转角度
+                        }
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: '代买行数'
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+                    tooltip: {
+                        pointFormat: '行数: <b>{point.y:.1f} 行</b>'
+                    },
+                    series: [{
+                        name: '行数',
+                        data:data.date_list,
+                        dataLabels: {
+                            enabled: true,
+                            rotation: -90,
+                            color: '#FFFFFF',
+                            align: 'right',
+                            format: '{point.y:.1f}', // :.1f 为保留 1 位小数
+                            y: 10
+                        }
+                    }]
+                });
+                }
+        })
+    })
+</script>
+
+{% endblock %}

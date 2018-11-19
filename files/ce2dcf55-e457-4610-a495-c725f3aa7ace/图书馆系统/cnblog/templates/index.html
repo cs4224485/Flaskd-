@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <style type="text/css">
+        a{
+            text-decoration: none;
+        }
+        .nav-head{
+            height: 50px;
+            background-color: #31b0d5;
+        }
+        .nav-head .nav_content{
+            width:1626px;
+            margin: 0 auto;
+
+        }
+
+        .nav-head .logo{
+            float: left;
+            color: yellowgreen;
+            font-size: 27px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px;
+            width: 200px;
+            height: 50px;
+        }
+
+        .nav-head .head_menu{
+            float: left;
+            margin-left: 200px;
+            line-height: 50px;
+            text-align: center;
+            width: 400px;
+            height: 50px;
+
+        }
+
+        .nav-head .head_menu a{
+            font-size: 16px;
+            padding: 10px;
+
+        }
+
+        .nav-head .user_login {
+            float: right;
+            font-size: 14px;
+            line-height: 50px;
+            text-align: center;
+            width: 200px;
+            height: 50px;
+        }
+
+        .nav-head .user_login a{
+            padding: 10px;
+        }
+        a:hover{
+            color: orange;
+            text-decoration: none;
+        }
+
+        .part2 span{
+            padding: 0 5px;
+        }
+
+        .user_info{
+            margin-top: 5px;
+            float: right;
+            width: 200px;
+            height: 50px;
+            position: relative;
+
+        }
+
+        .user_info:hover .user_menu{
+            display: block;
+        }
+        .user_menu:hover{
+            display: block;
+        }
+        .user_menu{
+            display: none;
+            padding: 0 10px 10px 10px;
+            top: 50px;
+            width: 100px;
+            text-align: center;
+            position: absolute;
+            background-color: grey;
+            border: 1px solid grey;;
+
+            z-index: 10;
+        }
+        .user_menu a{
+            margin: 10px 0;
+            width: 80px;
+            display: block;
+            color: whitesmoke;
+        }
+
+               .page a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: whitesmoke;
+            border: black solid 1px;
+            margin:10px 10px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .page .perv,.page .next{
+            width: 50px;
+        }
+
+        .page a.active{
+            background-color: #337ab7;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-head  ">
+         <div class=" nav_content clearfix">
+            <div class="logo">
+                <span>博客园</span>
+            </div>
+
+            <div class="head_menu">
+
+
+            </div>
+
+            {% if not request.user.username %}
+                <div class="user_login">
+                    <a href="/login/">登录</a>
+                    <a href="/register/">注册</a>
+                </div>
+            {% else %}
+                 <div class="user_info">
+                   <a class="avatars" style="display: inline-block;"><img style="border-radius: 50%" width="40" height="40" src="/media/{{ request.user.avatar }}">
+                   <a style="font-size: 15px; color: white" >&nbsp;&nbsp;{{ request.user.username }}</a></a>
+                    <div class="user_menu">
+                            <a href="/{{ request.user.username }}/">我的博客</a>
+                            <a href="/index/">博客园</a>
+                            <a>我的消息</a>
+                            <a href="/logout/">登出</a>
+                    </div>
+                </div>
+            {% endif %}
+         </div>
+
+
+    </div>
+
+    <div class="row" style="margin-top: 30px">
+        <div class="col-md-2">
+
+            <div class="panel panel-primary">
+
+                <div class="panel-heading">分类</div>
+                  <div class="panel-body">
+                      {% for item in category %}
+                            <p><a href="">{{ item.title }}</a></p>
+
+                      {% endfor %}
+                  </div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">标签</div>
+                  <div class="panel-body">
+                  </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-7">
+                {% for item in article_list %}
+                    <div>
+                        <h5><a href="/{{ item.user.username }}/articles/{{ item.nid }}" style="font-size: 18px; text-decoration: underline; color:#105cb6; font-weight: bold">{{ item.title }}</a></h5>
+
+                        <div class="article_desc">
+                            <span class="media-left">
+                                <a href=""><img width="50" height="50" src="media/{{ item.user.avatar }}"></a>
+                            </span>
+                            <span class="media-right">{{ item.summary }} &nbsp;&nbsp;<a href="/{{ item.user.username }}/articles/{{ item.nid }}">阅读全文</a></span>
+                        </div>
+                        <div class="part2" style=" margin-top: 20px">
+                            <span>{{ item.user.username }}</span>
+                            <span>发布于 {{  item.create_time|date:"Y-m-d H:i" }}</span>
+                            <span class="glyphicon glyphicon-comment"></span><span>评论({{ item.comment_count }})</span>
+                            <span class="glyphicon glyphicon-thumbs-up"></span><span>点赞({{ item.up_count }})</span>
+                        </div>
+                    </div>
+                    <hr>
+                {% endfor %}
+                <div class="page">
+                    {{ page_str|safe }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="/static/jquery-3.3.1.js"></script>
+<script src="/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}
+    <h1>{{ publish_obj.name }}</h1>
+{% endblock %}
+
+
+{% block content %}
+           <p><a href="/add_author/" class="btn btn-primary">添加作者</a> <a href="/author/" class="btn btn-success" style="position: relative; left: 10px">查看作者</a></p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                           <td>出版书籍</td>
+                           <td>作者</td>
+                           <td>出版日期</td>
+                           <td>价格</td>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                            {% for book in book_list %}
+                            <tr>
+                                <td>{{ book.title }}</td>
+                                <td>{% for author in book.authors.all %}
+                                    {{ author.name }}
+                                {% endfor %}
+                                </td>
+                                <td>{{ book.pub_date|date:'Y-m-d' }}</td>
+                                <td>{{ book.price }}</td>
+
+                            </tr>
+                            {% endfor %}
+                    </tbody>
+                </table>
+        <p><a href="/index/" class="btn btn-primary pull-right">返回首页</a> </p>
+{% endblock %}

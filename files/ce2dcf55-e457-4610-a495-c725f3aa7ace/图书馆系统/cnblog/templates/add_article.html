@@ -1,0 +1,54 @@
+{% extends "background_base.html" %}
+
+{% block content %}
+    <div class="col-md-7 col-md-offset-1">
+        <form action="/add_article/" method="post">
+            {% csrf_token %}
+            <div>
+                <p style="font-size: 20px; color: black">标题:</p>
+                <input style="width: 900px" type="text" name="title" class="form-control">
+            </div>
+            <div>
+                <p>编辑内容:</p>
+                <textarea style="resize: none;" id="textarea_content" name="content"></textarea>
+            </div>
+            <div style="margin-top: 10px">
+                <p>选择类型</p>
+                {% for category in category_list %}
+                     <label class="radio-inline" for="{{ category.nid }}">{{ category.title }}</label>
+                     <input   type="radio" name="category" id="{{ category.nid }}" value="{{ category.nid}}">
+                {% endfor %}
+            </div>
+            <div class="pull-right" style="margin-top: 10px; margin-right: 10px">
+               <input type="submit" class="btn btn-primary">
+               <button class="btn-primary btn">取消</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+
+{% block js %}
+    	<script charset="utf-8" src="/static/kindeditor/kindeditor-all.js"></script>
+        <script charset="utf-8" src="/static/kindeditor/lang/zh-CN.js"></script>
+
+        <script>
+
+                KindEditor.ready(function(K) {
+                        window.editor = K.create('#textarea_content', {
+                            width:"1200",
+                            height:"700",
+                            uploadJson:"/upload/",
+                            resizeType:0,
+                            extraFileUploadParams:{
+                                'csrfmiddlewaretoken':$("[name='csrfmiddlewaretoken']").val()
+
+                            },
+                            filePostName:"upload_img"		// 上传文件键（文件名）
+                        });
+                });
+
+
+        </script>
+
+{% endblock %}

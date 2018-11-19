@@ -1,0 +1,20 @@
+    <table class=" table table-strip">
+                <thead>
+                    <tr>
+                        <th>用户名</th>
+                        <th>代码行数</th>
+                        <th>日期</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                        {% for item in data_list %}
+                           <tr>
+                                <th>{{item.username}}</th>
+                                <th>{{item.counts}}</th>
+                                <th>{{item.upload_date}}</th>
+                             </tr>
+                        {% endfor %}
+
+                </tbody>
+   </table>

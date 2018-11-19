@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}
+    <h1>{{ author_obj.name }}</h1>
+{% endblock %}
+
+{% block content %}
+           <p><a href="/add_author/" class="btn btn-primary">添加作者</a> <a href="/author/" class="btn btn-success" style="position: relative; left: 10px">查看作者</a></p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                           <td>姓名</td>
+                           <td>年龄</td>
+                           <td>性别</td>
+                           <td>出版书籍</td>
+
+                            <td>所在城市</td>
+                           <td>编辑操作</td>
+                           <td>删除操作</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                            <tr>
+                                <td>{{ author_obj.name }}</td>
+                                <td>{{ author_obj.age}}</td>
+                                <td>{{ author_obj.sex}}</td>
+                                <td>{% for book in author_obj.book_set.all %}
+                                    {{ book.title }}
+                                    {% endfor %}
+                                </td>
+                                <td>{{ author_obj.author_detail.addr }}</td>
+                                <td>
+                                    <a href="/{{ author_obj.id }}/edit_author/" class="btn btn-success">编辑</a>
+                                </td>
+                                <td>
+                                    <a href="/{{ author_obj.id }}/delete_author/" class="btn btn-danger">删除</a>
+                                </td>
+                            </tr>
+
+
+                    </tbody>
+                </table>
+          <p><a href="/index/" class="btn btn-primary pull-right">返回首页</a> </p>
+{% endblock %}

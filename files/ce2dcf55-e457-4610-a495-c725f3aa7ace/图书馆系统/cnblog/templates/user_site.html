@@ -1,0 +1,64 @@
+{% extends 'site_base.html' %}
+
+{% block css %}
+<style type="text/css">
+      .article_item{
+            border: 1px solid #dedede;;
+            padding: 15px;
+
+        }
+        .article_item:hover{
+            border-color: #31b0d5;
+        }
+        .create_time a{
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            background-color: #45bcf9;
+            font-size: 12px;
+            text-align: center;
+            line-height: 30px;
+
+        }
+
+        .create_time a:hover {
+            background-color: #a94442;
+        }
+        .part2 span{
+            color: #7d8b8d;;
+        }
+</style>
+
+{% endblock %}
+
+{% block center_content %}
+<div class="col-md-6">
+    {% for article in article_list %}
+    <div class="article_item">
+        <h5>
+            <span class="create_time">
+            <a href="">{{ article.create_time|date:"Y-m-d" }}</a>
+            </span>
+            <a href="/{{ user_obj.username }}/articles/{{ article.nid }}" style="font-size: 23px; vertical-align: -3px">&nbsp;&nbsp;{{ article.title }}</a>
+        </h5>
+        <div class="part1">
+            <span class="summary">{{ article.summary }}</span><span><a href="/{{ user_obj.username }}/articles/{{ article.nid }}" style="color: green">&nbsp;&nbsp;&nbsp;阅读全文</a></span>
+        </div>
+        <div class="part2 small" style="margin-top: 10px">
+            <span>posted&nbsp;{{ article.create_time|date:"Y-m-d" }}</span>
+            <span>&nbsp;{{ article.user.username }}</span>
+            <span>&nbsp;阅读({{ article.read_count }})</span>
+            <span>&nbsp;评论({{ article.comment_count }})</span>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
+{% endblock %}
+
+
+
+
+
+
+

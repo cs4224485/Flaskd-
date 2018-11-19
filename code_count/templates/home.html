@@ -1,0 +1,77 @@
+{% extends "layout.html"%}
+
+{% block content %}
+<div class='row-fluid'>
+    <div id="container" style="min-width:400px;height:400px"></div>
+
+    <div class='span12 box bordered-box blue-border' style='margin-bottom:0;'>
+        <div class='box-header blue-background'>
+            <div class='title'>我的代码</div>
+        </div>
+        <div class='box-content box-no-padding'>
+            {% include "tables.html" %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block js %}
+<script src="/static/chart/highcharts.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            url: '',
+            type: 'get',
+            data:{'chart':true},
+            dataType:'json',
+            success: function (data) {
+                console.log(data);
+                var chart = Highcharts.chart('container', {
+                    chart: {
+                        type: 'spline'
+                    },
+                    title: {
+                        text: '每日代码量'
+                    },
+                    subtitle: {
+                        text: '数据来源: WorldClimate.com'
+                    },
+                    xAxis: {
+                        categories: data.date_list
+                    },
+                    yAxis: {
+                        title: {
+                            text: '代码'
+                        }
+                    },
+                    tooltip: {
+                        crosshairs: true,
+                        shared: true
+                    },
+                    plotOptions: {
+                        spline: {
+                            marker: {
+                                radius: 1,
+                                lineColor: '#666666',
+                                lineWidth: 1
+                            }
+                        }
+                    },
+                    series: [{
+                        name: '{{username}}',
+                        marker: {
+                            symbol: 'square'
+                        },
+                        data: data.lines_list
+                    }]
+                });
+
+            }
+        })
+    });
+
+
+</script>
+
+{% endblock %}

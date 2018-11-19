@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <style type="text/css">
+        li{
+            ;list-style: none;
+        }
+
+        .title{
+            display: block;
+            font-size: 30px;
+            color: orange;
+            font-weight: bold;
+            line-height: 48px;
+            text-align: center;
+        }
+        .head{
+            background-color: #283e5c;;
+            height: 48px;
+        }
+        .head-right{
+            width: 400px;
+            float: right;
+            text-align: center;
+        }
+        .head-right a{
+
+            display: inline-block;
+            height: 20px;
+            width:  30px;
+            font-size: 14px;
+            line-height: 48px ;
+            margin-right: 10px;
+            color: white;
+        }
+        .user_info{
+            width: 100px;
+            height: 48px;
+            position: relative;
+
+        }
+
+        .user_info:hover .user_menu{
+            display: block;
+        }
+        .user_menu:hover{
+            display: block;
+        }
+        .user_menu{
+            display: none;
+            padding: 0 10px 10px 10px;
+            top: 48px;
+            width: 100px;
+            text-align: center;
+            position: absolute;
+            background-color: grey;
+            border: 1px solid grey;;
+            right: 0;
+            z-index: 10;
+        }
+        .user_menu a{
+            margin: 10px 0;
+            width: 80px;
+            display: block;
+            color: whitesmoke;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="head ">
+        <div style="width: 300px; float: left">
+            <span class="title">博客园</span>
+        </div>
+        <div class="head-right">
+            <div class="user_info">
+               <a class="avatars" style="display: inline-block;"><img style="border-radius: 50%" width="40" height="40" src="/media/{{ request.user.avatar }}">
+               <a style="font-size: 15px; color: white" >&nbsp;&nbsp;{{ request.user.username }}</a></a>
+                <div class="user_menu">
+                        <a href="/{{ request.user.username }}/">我的博客</a>
+                        <a href="/index/">博客园</a>
+                        <a>我的消息</a>
+                        <a href="/logout/">登出</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-2" style="margin-top: 10px">
+            <div class="panel panel-primary">
+                <div class="panel-heading">操作</div>
+                  <div class="panel-body">
+                    <p><a href="/add_article/">添加新文章</a></p>
+                  </div>
+            </div>
+             <div class="panel panel-success">
+                <div class="panel-heading"> 分类</div>
+                  <div class="panel-body">
+
+                  </div>
+            </div>
+        </div>
+
+        <div class="col-md-10" style="margin-top: 10px">
+           {% block content %}
+
+           {% endblock %}
+        </div>
+    </div>
+
+
+</body>
+<script src="/static/jquery-3.3.1.js"></script>
+<script src="/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+{% block js %}
+
+{% endblock %}
+</html>

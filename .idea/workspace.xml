@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69d6a427-d11d-4449-9143-3803e54aa90a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Flas_代码统计.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/local.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/model.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/fontawesome-webfont_2d2816fe.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-bold-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-bold-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-bold-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-bold-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-bold-webfont_2d2816fe.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-regular-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-regular-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-regular-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-regular-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/fonts/montserrat-regular-webfont_2d2816fe.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/13.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/14.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/15.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/17.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/18.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/ajax-loaders/9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/avatar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/bootstrap/glyphicons-halflings-white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/bootstrap/glyphicons-halflings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-bg_glass_75_ffffff_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-icons_222222_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-icons_2e83ff_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-icons_454545_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-icons_888888_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/jquery_ui/ui-icons_f6cf3b_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/bootstrap_colorpicker/alpha.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/bootstrap_colorpicker/hue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/bootstrap_colorpicker/saturation.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/dynatree/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/dynatree/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/flags/flags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/select2/select2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/select2/select2x2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/select2/spinner.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/xeditable/clear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/images/plugins/xeditable/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/bootstrap/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/demo/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/demo/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/demo/inplace_editing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/demo/jquery.mockjax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/html5shiv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/jquery/jquery-migrate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/jquery_ui/jquery-ui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/nav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/autosize/jquery.autosize-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootbox/bootbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_colorpicker/bootstrap-colorpicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_daterangepicker/bootstrap-daterangepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_daterangepicker/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_datetimepicker/bootstrap-datetimepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_hover_dropdown/twitter-bootstrap-hover-dropdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_maxlength/bootstrap-maxlength.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/bootstrap_switch/bootstrapSwitch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/charCount/charCount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/ckeditor/ckeditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/ckeditor/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/ckeditor/plugins/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/ckeditor/plugins/templates/templates/default.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/ckeditor/styles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/common/bootstrap-wysihtml5.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/common/wysihtml5.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/datatables/jquery.dataTables.columnFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/datatables/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/dynatree/jquery.dynatree.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileinput/bootstrap-fileinput.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/canvas-to-blob.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/jquery.fileupload-fp.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/jquery.fileupload-init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/jquery.fileupload-ui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/jquery.fileupload.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/jquery.iframe-transport.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/load-image.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fileupload/tmpl.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/flot/excanvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/flot/flot.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/flot/flot.pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/flot/flot.resize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fuelux/wizard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/fullcalendar/fullcalendar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/input_mask/bootstrap-inputmask.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/jgrowl/jquery.jgrowl.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/mention/mention.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/mobile_events/jquery.mobile-events.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/modernizr/modernizr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/naked_password/naked_password-0.2.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/nestable/jquery.nestable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/retina/retina.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/slider_nav/slidernav-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/sparklines/jquery.sparkline.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/tabdrop/bootstrap-tabdrop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/timeago/jquery.timeago.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/validate/additional-methods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/validate/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/xeditable/bootstrap-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/plugins/xeditable/wysihtml5.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/tables.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/javascripts/theme.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/bootstrap/bootstrap-responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/bootstrap/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/jquery_ui/jquery-ui-1.10.0.custom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/jquery_ui/jquery.ui.1.10.0.ie.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/light-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/bootstrap_colorpicker/bootstrap-colorpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/bootstrap_daterangepicker/bootstrap-daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/bootstrap_datetimepicker/bootstrap-datetimepicker.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/bootstrap_switch/bootstrap-switch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/common/bootstrap-wysihtml5.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/datatables/bootstrap-datatable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/dynatree/ui.dynatree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/flags/flags.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/fuelux/wizard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/fullcalendar/fullcalendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/jgrowl/jquery.jgrowl.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/jquery_fileupload/jquery.fileupload-ui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/mention/mention.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/slider_nav/slidernav.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/tabdrop/tabdrop.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/assets/stylesheets/plugins/xeditable/bootstrap-editable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap-3.3.7-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap插件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/bootstrap的组件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/gradeSystem.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/response.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/bootstrap/全局css样式.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/highcharts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/highcharts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/highcharts-3d.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/highcharts-3d.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/highcharts-more.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/highcharts-more.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/highcharts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/highcharts.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/accessibility.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/accessibility.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/annotations.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/annotations.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/boost-canvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/boost-canvas.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/boost.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/boost.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/broken-axis.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/broken-axis.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/bullet.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/bullet.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/data.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/drag-panes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/drag-panes.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/drilldown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/drilldown.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/export-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/export-data.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/exporting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/exporting.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/funnel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/funnel.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/gantt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/gantt.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/grid-axis.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/grid-axis.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/heatmap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/heatmap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/histogram-bellcurve.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/histogram-bellcurve.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/item-series.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/item-series.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/no-data-to-display.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/no-data-to-display.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/offline-exporting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/offline-exporting.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/oldie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/oldie.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/overlapping-datalabels.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/overlapping-datalabels.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/parallel-coordinates.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/parallel-coordinates.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/pareto.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/pareto.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/pattern-fill.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/pattern-fill.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/sankey.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/sankey.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/series-label.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/series-label.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/solid-gauge.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/solid-gauge.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/static-scale.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/static-scale.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/stock.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/stock.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/streamgraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/streamgraph.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/sunburst.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/sunburst.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/tilemap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/tilemap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/treemap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/treemap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/variable-pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/variable-pie.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/variwide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/variwide.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/vector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/vector.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/windbarb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/windbarb.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/wordcloud.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/wordcloud.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/xrange.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/modules/xrange.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/avocado.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/avocado.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/dark-blue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/dark-blue.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/dark-green.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/dark-green.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/dark-unica.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/dark-unica.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/gray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/gray.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/grid-light.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/grid-light.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/grid.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/sand-signika.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/sand-signika.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/skies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/skies.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/sunset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/js/themes/sunset.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/themes/dark-unica.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/themes/grid-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/css/themes/sand-signika.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/highcharts-3d.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/highcharts-3d.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/highcharts-more.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/highcharts-more.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/highcharts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/highcharts.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/canvg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/canvg.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/jspdf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/jspdf.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/rgbcolor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/rgbcolor.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/svg2pdf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/lib/svg2pdf.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/accessibility.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/accessibility.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/annotations.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/annotations.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/boost-canvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/boost-canvas.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/boost.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/boost.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/broken-axis.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/broken-axis.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/bullet.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/bullet.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/data.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/drag-panes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/drag-panes.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/drilldown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/drilldown.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/export-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/export-data.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/exporting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/exporting.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/funnel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/funnel.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/gantt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/gantt.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/grid-axis.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/grid-axis.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/heatmap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/heatmap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/histogram-bellcurve.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/histogram-bellcurve.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/item-series.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/item-series.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/no-data-to-display.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/no-data-to-display.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/offline-exporting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/offline-exporting.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/oldie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/oldie.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/overlapping-datalabels.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/overlapping-datalabels.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/parallel-coordinates.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/parallel-coordinates.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/pareto.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/pareto.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/pattern-fill.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/pattern-fill.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/sankey.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/sankey.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/series-label.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/series-label.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/solid-gauge.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/solid-gauge.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/static-scale.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/static-scale.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/stock.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/stock.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/streamgraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/streamgraph.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/sunburst.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/sunburst.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/tilemap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/tilemap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/treemap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/treemap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/variable-pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/variable-pie.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/variwide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/variwide.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/vector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/vector.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/windbarb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/windbarb.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/wordcloud.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/wordcloud.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/xrange.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/modules/xrange.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/avocado.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/avocado.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/dark-blue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/dark-blue.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/dark-green.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/dark-green.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/dark-unica.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/dark-unica.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/gray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/gray.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/grid-light.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/grid-light.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/grid.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/sand-signika.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/sand-signika.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/skies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/skies.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/sunset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/chart/themes/sunset.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/static/js/jquery-3.3.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/templates/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/templates/layout.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/templates/sign_in.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/templates/tables.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/templates/upload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/utils/count.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/views/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/views/auth.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/code_count/views/index.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/9cd9e712-2f44-483b-bf45-7687f4d5008a/crm用户关系管理/crm╙├╗º╣╪╧╡╣▄└φ" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/cnblog.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/dataSources/1f1652d2-24f1-4d34-8488-1af4d533cac0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/dataSources/1f1652d2-24f1-4d34-8488-1af4d533cac0/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/READEME.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/blog_forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/migrations/0002_auto_20180701_1218.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/migrations/0003_auto_20180701_1833.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/migrations/0004_article_read_count.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/templatetags/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/templatetags/my_tags.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/utils/create_comment_tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/utils/filter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/utils/handle_code.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/utils/handle_page.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/Blog/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/cnblog/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/cnblog/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/cnblog/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/cnblog/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/add_article_img/2e2eb9389b504fc2f665de31e2dde71190ef6dcf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/add_article_img/Centos系统启动流程(2).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/add_article_img/IMG_20180626_171248_BURST2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/add_article_img/IMG_20180626_173530.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/add_article_img/IMG_20180626_174531.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/add_article_img/QQ图片20180402184413.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/1_7AHEKnU.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/1_i0YAtkz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/1_lGOMy5G.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/1_xnNUw2C.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/3_UYY6fhe.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/3_XX091cl.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/4_Yl77m3M.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/6_zcQmoLA.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/IMG_20180626_173125.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/media/avatar/default.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/python" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap-3.3.7-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap插件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/bootstrap的组件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/gradeSystem.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/response.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/bootstrap/全局css样式.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/font/Wolf.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/font/waterlily.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/img/downdown.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/img/icon_weibo_24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/img/upup.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/jquery-3.3.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp.net/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp.net/bin/LitJSON.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp.net/demo.aspx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp.net/file_manager_json.ashx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp.net/upload_json.ashx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp/JSON_2.0.4.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp/UpLoad_Class.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp/demo.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp/file_manager_json.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/asp/upload_json.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/demo.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/file_manager_json.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/lib/commons-io-1.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/lib/json_simple-1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/jsp/upload_json.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/kindeditor-all-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/kindeditor-all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/lang/ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/lang/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/lang/ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/lang/ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/lang/zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/lang/zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/license.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/php/JSON.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/php/demo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/php/file_manager_json.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/php/upload_json.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/anchor/anchor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/autoheight/autoheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/baidumap/baidumap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/baidumap/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/baidumap/map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/clearhtml/clearhtml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/code/code.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/code/prettify.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/code/prettify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/emoticons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/100.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/101.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/102.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/103.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/104.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/105.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/106.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/107.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/108.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/109.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/110.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/111.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/112.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/113.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/114.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/115.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/116.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/117.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/118.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/119.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/120.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/121.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/122.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/123.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/124.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/125.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/126.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/127.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/128.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/129.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/13.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/130.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/131.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/132.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/133.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/134.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/14.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/15.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/17.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/18.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/19.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/20.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/21.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/22.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/23.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/25.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/26.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/27.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/28.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/29.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/30.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/31.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/32.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/33.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/34.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/35.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/36.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/37.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/38.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/39.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/40.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/41.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/42.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/43.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/44.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/45.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/46.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/47.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/48.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/49.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/50.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/51.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/52.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/53.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/54.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/55.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/56.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/57.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/58.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/59.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/60.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/61.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/62.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/63.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/65.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/66.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/67.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/68.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/69.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/70.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/71.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/72.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/73.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/74.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/75.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/76.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/77.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/78.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/79.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/80.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/81.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/82.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/83.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/84.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/85.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/86.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/87.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/88.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/89.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/90.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/91.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/92.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/93.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/94.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/95.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/96.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/97.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/98.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/99.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/emoticons/images/static.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/filemanager/filemanager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/filemanager/images/file-16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/filemanager/images/file-64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/filemanager/images/folder-16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/filemanager/images/folder-64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/filemanager/images/go-up.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/fixtoolbar/fixtoolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/flash/flash.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/image/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/image/images/align_left.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/image/images/align_right.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/image/images/align_top.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/image/images/refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/insertfile/insertfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/lineheight/lineheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/link/link.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/map/map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/map/map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/media/media.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/multiimage/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/multiimage/images/select-files-en.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/multiimage/images/swfupload.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/multiimage/multiimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/pagebreak/pagebreak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/plainpaste/plainpaste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/preview/preview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/quickformat/quickformat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/table/table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/template/html/1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/template/html/2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/template/html/3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/template/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/plugins/wordpaste/wordpaste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/common/anchor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/common/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/common/flash.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/common/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/common/media.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/common/rm.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/default/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/default/default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/default/default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/qq/editor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/qq/qq.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/static/kindeditor/themes/simple/simple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/add_article.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/article_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/background.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/background_base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/classfication.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/edit_article.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/site_base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/cnblog/templates/user_site.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/dataSources/86d95c51-d54d-4792-8768-87c43fc85fd7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/dataSources/86d95c51-d54d-4792-8768-87c43fc85fd7/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/.idea/图书馆系统.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/migrations/0002_auto_20180606_1846.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/migrations/0003_auto_20180606_1941.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/migrations/0004_auto_20180607_1635.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/pub_func.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/library/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap-3.3.7-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap插件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/bootstrap的组件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/gradeSystem.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/response.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/bootstrap/全局css样式.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/static/jquery-3.3.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/add_author.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/add_book.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/add_publish.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/author_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/authors.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/edit_author.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/edit_book.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/edit_publish.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/publish.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/templates/publish_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/图书馆系统/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/图书馆系统/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/图书馆系统/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/files/ce2dcf55-e457-4610-a495-c725f3aa7ace/图书馆系统/图书馆系统/图书馆系统/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manager.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/redis_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_pymysql.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Flas_$views.coverage" NAME="views Coverage Results" MODIFIED="1536054474243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_count/views" />
+    <SUITE FILE_PATH="coverage/Flas_$test_pymysql.coverage" NAME="test_pymysql Coverage Results" MODIFIED="1535872699824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flas_$redis_test.coverage" NAME="redis_test Coverage Results" MODIFIED="1535942539447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flas_$local.coverage" NAME="local Coverage Results" MODIFIED="1535939693296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_count" />
+    <SUITE FILE_PATH="coverage/Flas_$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1535873409521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_count" />
+    <SUITE FILE_PATH="coverage/Flas_$manager.coverage" NAME="manager Coverage Results" MODIFIED="1536649078800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Flas_代码统计" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_count/views/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding>
+                <marker date="1536544996466" expanded="true" signature="621:722" ph="select * fro... CodeInfo" />
+                <marker date="1536544996466" expanded="true" signature="775:886" ph="select sum(c... CodeInfo" />
+                <marker date="1536544996466" expanded="true" signature="1474:1607" ph="select usern... CodeInfo" />
+                <marker date="1536544996466" expanded="true" signature="1474:1639" ph="select usern... CodeInfo" />
+                <marker date="1536544996466" expanded="true" signature="2463:2521" ph="select * fro... CodeInfo" />
+                <marker date="1536544996466" expanded="true" signature="2912:2977" ph="insert into CodeInfo... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Python36/Lib/site-packages/flask/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#397#434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_pymysql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_pymysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1535872699766" expanded="true" signature="324:440" ph="create table... userinfo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="e#37#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_count/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_pymysql.py" />
+        <option value="$PROJECT_DIR$/code_count/manager.py" />
+        <option value="$PROJECT_DIR$/manager.py" />
+        <option value="$PROJECT_DIR$/code_count/views/__init__.py" />
+        <option value="$PROJECT_DIR$/code_count/local.py" />
+        <option value="$PROJECT_DIR$/redis_test.py" />
+        <option value="$PROJECT_DIR$/code_count/templates/login.html" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/code_count/templates/sign_in.html" />
+        <option value="$PROJECT_DIR$/code_count/templates/index.py" />
+        <option value="$PROJECT_DIR$/code_count/templates/upload.py" />
+        <option value="$PROJECT_DIR$/code_count/utils/count.py" />
+        <option value="$PROJECT_DIR$/code_count/model.py" />
+        <option value="$PROJECT_DIR$/code_count/views/index.html" />
+        <option value="$PROJECT_DIR$/code_count/views/idnex.py" />
+        <option value="$PROJECT_DIR$/code_count/views/views.py" />
+        <option value="$PROJECT_DIR$/code_count/views/auth.py" />
+        <option value="$PROJECT_DIR$/code_count/__init__.py" />
+        <option value="$PROJECT_DIR$/code_count/templates/upload.html" />
+        <option value="$PROJECT_DIR$/code_count/templates/tables.html" />
+        <option value="$PROJECT_DIR$/code_count/templates/layout.html" />
+        <option value="$PROJECT_DIR$/code_count/templates/home.html" />
+        <option value="$PROJECT_DIR$/code_count/views/index.py" />
+        <option value="$PROJECT_DIR$/code_count/templates/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-620" />
+    <option name="y" value="172" />
+    <option name="width" value="1933" />
+    <option name="height" value="899" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Flas_代码统计" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flas_代码统计" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flas_代码统计" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flas_代码统计" type="462c0819:PsiDirectoryNode" />
+              <item name="code_count" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/myprogram/路飞学城/Flas_代码统计/code_count/views/index.py" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\myprogram\路飞学城\Flas_代码统计\code_count" />
+      <recent name="G:\myprogram\路飞学城\Flas_代码统计" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\myprogram\路飞学城\Flas_代码统计\code_count\static" />
+      <recent name="G:\myprogram\路飞学城\Flas_代码统计\code_count\templates" />
+      <recent name="G:\myprogram\路飞学城\Flas_代码统计\code_count\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manager">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_count" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flas_代码统计" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_count/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="local" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_count" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flas_代码统计" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_count/local.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flas_代码统计" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="redis_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flas_代码统计" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_count/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flas_代码统计" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\myprogram\路飞学城\Flas_代码统计\code_count\views\index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.manager" />
+      <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="2" class="java.lang.String" itemvalue="Python.local" />
+      <item index="3" class="java.lang.String" itemvalue="Python.views" />
+      <item index="4" class="java.lang.String" itemvalue="Python.redis_test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.manager" />
+        <item index="1" class="java.lang.String" itemvalue="Python.views" />
+        <item index="2" class="java.lang.String" itemvalue="Python.redis_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.local" />
+        <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69d6a427-d11d-4449-9143-3803e54aa90a" name="Default" comment="" />
+      <created>1535871711070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535871711070</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-620" y="172" width="1933" height="899" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33739838" sideWeight="0.18763326" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33743018" sideWeight="0.8123667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="false" weight="0.32924107" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4936034" order="11" side_tool="false" content_ui="tabs" x="497" y="373" width="926" height="294" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24079017" sideWeight="0.4955357" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.48987207" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21908316" sideWeight="0.50446427" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Python/Python36/Lib/site-packages/flask/globals.py</url>
+          <line>12</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/README.text" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/account/userdb/2415767168.json" />
+    <entry file="file://C:/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/account/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/shopping/bin/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/log/logger.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/bin/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/config/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/core/admin.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/config/setting.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/account/account_manage.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/bin/init_admin.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/bin/users.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/static/ATM/bin/admin.py" />
+    <entry file="file://C:/Python/Python36/Lib/site-packages/flask_session/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1263">
+          <caret line="276" column="4" lean-forward="false" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="966" column="0" lean-forward="false" selection-start-line="966" selection-start-column="0" selection-end-line="966" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3087">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2289">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/index.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/templates/layout.html" />
+    <entry file="file://$PROJECT_DIR$/code_count/templates/sign_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="53" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/static/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/upload.py" />
+    <entry file="file://$PROJECT_DIR$/code_count/views/index.html" />
+    <entry file="file://$PROJECT_DIR$/code_count/views/idnex.py" />
+    <entry file="file://C:/Python/Python36/Lib/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="188" column="8" lean-forward="false" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/utils/count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="424" column="14" lean-forward="false" selection-start-line="424" selection-start-column="14" selection-end-line="424" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/static/chart/css/js/themes/gray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/views/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_pymysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1535872699766" expanded="true" signature="324:440" ph="create table... userinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/flask/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#397#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/views/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <marker date="1536544996466" expanded="true" signature="621:722" ph="select * fro... CodeInfo" />
+            <marker date="1536544996466" expanded="true" signature="775:886" ph="select sum(c... CodeInfo" />
+            <marker date="1536544996466" expanded="true" signature="1474:1607" ph="select usern... CodeInfo" />
+            <marker date="1536544996466" expanded="true" signature="1474:1639" ph="select usern... CodeInfo" />
+            <marker date="1536544996466" expanded="true" signature="2463:2521" ph="select * fro... CodeInfo" />
+            <marker date="1536544996466" expanded="true" signature="2912:2977" ph="insert into CodeInfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4662">
+          <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/flask/ctx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="350" column="28" lean-forward="false" selection-start-line="350" selection-start-column="28" selection-end-line="350" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="2290" column="22" lean-forward="true" selection-start-line="2290" selection-start-column="22" selection-end-line="2290" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_count/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#37#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <h1>欢迎登录图书馆系统</h1>
+{% endblock %}
+
+{% block content %}
+          <p> <a href="/add_book/" class="btn btn-primary">添加书籍</a>
+              <a href="/author/" class="btn btn-success" style="position: relative; left: 10px">查看作者</a>
+              <a href="/publish/" class="btn btn-danger" style="position: relative; left: 20px">查看出版社</a>
+          </p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                           <td>书名</td>
+                           <td>价格</td>
+                           <td>出版日期</td>
+                           <td>出版社</td>
+                           <td>作者</td>
+                           <td>编辑操作</td>
+                           <td>删除操作</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for book in book_obj %}
+                            <tr>
+                                <td>{{ book.title }}</td>
+                                <td>{{ book.price }}</td>
+                                <td>{{ book.pub_date|date:'Y-m-d' }}</td>
+                                <td><a href="/{{ book.publish.id }}/publish/">{{ book.publish.name}}</a></td>
+                                <td>{% for author in book.authors.all %}
+                                    <a href="/{{ author.id }}/author/">{{ author.name }}</a>
+                                {% endfor %}
+                                </td>
+                                <td>
+                                    <a href="/{{ book.id }}/edit/" class="btn btn-success">编辑</a>
+                                </td>
+                                <td>
+                                    <a href="/{{ book.id }}/delete/" class="btn btn-danger">删除</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+
+
+                    </tbody>
+                </table>
+
+{% endblock %}
+
